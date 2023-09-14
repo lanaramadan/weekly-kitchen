@@ -1,1 +1,164 @@
-/* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500'); */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@1,9..144,600&display=swap');
+
+* { 
+    margin: 0;
+    background: #F8F3EA;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 155px;
+}
+
+h1 {
+    width: 786px;
+    color: #304922;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+
+.fav-btn{
+    width: 103px;
+    height: 103px;
+
+    border-radius: 50%;
+    display: flex;
+    background: rgba(139, 38, 38, .1);
+    cursor: pointer;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+
+    border: 3px solid #8B2626;
+    
+}
+
+.fav-btn button {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: transparent;
+
+
+}
+
+.heart-btn-img {
+    width: 70%;
+    height: auto;
+    background: transparent;
+}
+
+.heart-btn-text {
+    color: #8B2626;
+    font-family: "Figtree";
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    background: transparent;
+}
+
+.main-site {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 19px;
+}
+
+.search input{
+    width: 453px;
+    border-radius: 20px;
+    border: 2px solid #372824;
+
+    color: #372824;
+    font-family: "Figtree";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.recipes {
+    margin-top: 12px;
+    height: 623px;
+    overflow: auto;
+}
+
+.recipe {
+    width: 453px;
+    height: 238px;
+    background: #B8CE91;
+    border: 2px solid #372824;
+    border-radius: 20px;
+    margin-bottom: 17px;
+}
+
+.recipe-img {
+    width: 100%;
+    max-height: 66.38%;
+    object-fit: cover; 
+    border-radius: 20px 20px 0 0;
+    border-bottom: 3px solid #372824;
+    position: relative; 
+    top: 0px;
+    left: 0;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recipe-name {
+    color: #372824;
+    font-family: "Figtree";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: transparent;  
+    padding-top: 5px;
+}
+
+.like-btn {
+    background: transparent;  
+    padding-top: 5px;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.recipe-ingredients {
+    color: #372824;
+    font-family: "Figtree";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;  
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
